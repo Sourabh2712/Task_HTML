@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+<body>
+    <div class="header">
+    <center>
+        <h2>Student Details</h2>
+        <p>Please Enter your Details.....</p>
+    </center>
+    </div>
+    <form>
+        <div>
+            Roll Number: <input type="text" name="myRollno." placeholder="Roll Number" id="" required>
+        </div>
+        <br>
+        <div>
+            First Name: <input type="text" name="myFname" placeholder="First Name" required>
+        </div>
+        <br>
+        <div>
+            Last Name: <input type="text" name="myLname" placeholder="Last Name" required>
+        </div>
+        <br>
+        <div>
+            Email: <input type="email" name="myEmail" id="" placeholder="Email" required>
+        </div>
+        <br>
+        <div>
+            Date of Birth: <input type="date" name="my DOB" id="">
+        </div>
+        <br>
+        <div>
+          Gender: <input type="radio" name="myGender" id=""> Male <input type="radio" name="myGender" id=""> Female <input type="radio" name="myGender" id=""> Others 
+        </div>
+        <br>
+        <div>
+            Branch:
+            <select name="branch">
+                <option selected="" value="Default">(Please select a branch)</option>
+                <option value="CSE">CSE</option>
+                <option value="IT">IT</option>
+                <option value="ECE">ECE</option>
+                <option value="Electrical">Electrical</option>
+                <option value="Civil">Civil</option>
+                <option value="Mechnical ">Mechnailcal</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            Year: <input type="radio" name="year" id=""> 1st Year 
+                  <input type="radio" name="year" id=""> 2nd Year 
+                  <input type="radio" name="year" id=""> 3rd Year 
+                  <input type="radio" name="year" id=""> 4th Year      
+        </div>
+        <br>
+        <div>
+            Mobile Number: <input type="tel" name="" size ="10" placeholder="Mobile Number" id="" required>
+        </div>
+        <br>
+        <div>
+            Address: <input type="text" name="Address" size= "50" placeholder="Address" id="">
+        </div>
+        <br>
+        <div>
+            State:
+            <select name="state">
+                <option selected="" value="Default">(Please select a state)</option>
+                <option value="New Delhi">New Delhi</option>
+                <option value="Rajastahn">Rajastahn</option>
+                <option value="DZ">Uttar Pradesh</option>
+                <option value="Haryana">Haryana</option>
+                <option value="Punjab">Punjab</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            Pincode:<input type="text" name="pincode" placeholder="Pincode">
+        </div>
+        <br>
+        <div>
+            Upload your current Semster Result (pdf): <input type = "file" name = "fileupload" accept = "pdf/*" />
+        </div>
+        <br>
+        <div>
+            I cerify that all the information given is true to best of my knowledge and belief. <input type="checkbox" name="true" id="" required>
+        </div>
+        <br>
+        <div>
+            <input type = "submit" name = "submit" value = "Submit Now" />
+            <input type = "reset" name = "reset"  value = "Reset Now" /> 
+        </div>
+    </form>
+    <hr>
+     <footer>
+       <p><small><i>© copyright 2021 <b>From.html</b></i></small></p>
+      </footer>
+    
+</body>
+</html>
