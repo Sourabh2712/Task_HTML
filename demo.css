@@ -1,0 +1,128 @@
+body {
+	margin: 0;
+	padding: 25px;
+    max-width: 100%;
+	max-height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat center;
+	background-image: url("https://cdn2.vectorstock.com/i/1000x1000/89/51/watercolor-grunge-colorful-banner-background-vector-19998951.jpg")  ;
+  }
+  
+  .topnav {
+	overflow: hidden;
+	font-family: cursive;
+	height: auto;
+	
+  }
+  
+  .topnav a {
+	display: flex;
+	float: left;
+	color: #111010;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 25px;
+  }
+  
+  .topnav a:hover {
+	background-color: #ddd;
+	color: black;
+  }
+  .topnav fa{
+	  bottom: 0%;
+	  padding-left: 10px;
+	  padding-top: 10px;
+  }
+  
+ 
+  .topnav:container {
+	display: flex ;
+	flex-direction: row;
+	padding: 16px;
+  }
+
+  .logo {
+	float: left;
+    vertical-align: top;
+    width: 50px;
+	height: 50px;
+   
+}
+  .container a {
+    float: right;
+	color: #f70707;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 25px;
+  }
+  
+ .container a:hover {
+	background-color: #ddd;
+	color: rgb(241, 14, 14);
+  }
+  .container a.active {
+	color: rgb(27, 25, 25);
+  }
+.content{
+	display: flex;
+	overflow: hidden;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-content: center;
+    text-align: center;
+	padding-top:100px ;
+	padding-bottom: 150px;
+	
+	height: 300px;
+}
+.content h2{
+	color: yellow;
+	font-size: 60px;
+	text-transform: uppercase;
+	font-family: 'Yellowtail',cursive;
+	
+}
+.content p{
+	text-align: center;
+	font-family: 'Ubuntu', sans-serif;
+	color:tomato;
+	font-size: 25px;
+
+}
+.footer{
+	display: flex;
+	
+	margin-bottom: 0%;
+	text-align: justify;
+	width: 100%;
+	height: 100px;
+    justify-content: right;
+	flex-direction: column;
+	background-color: black;
+    flex-wrap: wrap;
+    
+}
+.footer img{
+	
+	width:50px;
+	height: 50px;
+	border-radius: 50%;
+}
+.icon{
+
+	flex:50%;
+	flex-direction: row-reverse;
+	
+}
+.first{
+	text-align: center;
+    color: cornsilk;
+} 
+.footer div img{
+	
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
